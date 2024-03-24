@@ -1,7 +1,6 @@
-// Lab 6, uP2 Fall 2023
 // Created: 2023-07-31
 // Updated: 2023-08-01
-// Lab 6 is intended to serve as an introduction to the BeagleBone Black and wireless
+// This got me familiar with the BeagleBone Black and wireless
 // communication concepts.
 
 /************************************Includes***************************************/
