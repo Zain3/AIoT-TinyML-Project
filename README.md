@@ -14,7 +14,7 @@ Steps to run the project:
   * "pip3 install -upgrade pip", "pip3 install PySerial", and "sudo apt install python3-opencv"
   * In the SSH terminal, run: python3, import cv2, import serial (on new lines) to see if install properly
 
-2. SSH into the BeagleBone, and transfer the Client.py file into it.
+2. SSH into the BeagleBone, and transfer the Client.py file  and "faarcascade_frontalface_default.xml" via WinSCP to it.
    * I used the website, https://realpython.com/python-sockets/ to learn how to program the sockets from the client and server side.
   
 4. Run the Server.py on your server, then run Client.py on the BeagleBone.
