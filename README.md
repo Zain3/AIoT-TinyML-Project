@@ -17,6 +17,8 @@ Steps to run the project:
 2. SSH into the BeagleBone, and transfer the Client.py file  and "faarcascade_frontalface_default.xml" via WinSCP to it.
    * I used the website, https://realpython.com/python-sockets/ to learn how to program the sockets from the client and server side.
   
-3. **To start the entire setup**, First run the Server.py on your server, then run Client.py on the BeagleBone, then start the RTOS on the TIVA Launchpad on CCS (Code Composer Studio)
-    * First, on the BeagleBone, run "config-pin p9.11 uart" and "config-pin p9.13 uart"
-    * The camera on your computer should turn on, and face detection should start.
+3. **To start the entire setup**,
+    * First, power on the BeagleBone, SSH into it, and run the 2 config-pin commands (run "config-pin p9.11 uart" and "config-pin p9.13 uart")
+    * Second, Plug in the Tiva and wait until it powers on
+    * Third, FIRST start the RTOS on the TIVA using CCS (Code Composier Studio), and THEN run the Server.py on your PC, and lastly Client.py on the BeagleBone
+    * The camera on your computer should turn on automatically, and face detection should start.
